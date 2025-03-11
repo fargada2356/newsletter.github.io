@@ -1,0 +1,42 @@
+.container {
+    border-radius: 20px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#message {
+border-radius: 5px;
+padding: 15px;
+width: 100%;
+align-items: center;
+justify-content: center;
+display: flex;
+border: 1px solid hsl(234, 29%, 20%)!important;
+margin-top: 20px;
+background-color: hsl(234, 29%, 20%);
+color: white;
+font-weight: bold;
+transition: all 0.3s ease;
+cursor: pointer;
+margin: 20px 0;  
+display: flex;      
+align-items: center;
+justify-content: center;
+}
+
+.fa-circle-check {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #e74c3c;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
